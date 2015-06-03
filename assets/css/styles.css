@@ -1,0 +1,233 @@
+/*FROM MY JERVEY */
+
+.clear-both{
+    clear: both;
+}
+
+.logoheader
+{
+    background-color: #17727a;
+    padding:10px;
+    margin:30px 0 10px;
+    height:47px;
+}
+#logo {
+    margin: -33px 0 -33px;
+    float:left;
+}
+header .nav,
+#header .nav {
+    float:left;
+    width:99%;
+    margin-left:-256px;
+    padding-left:256px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    display:inline-block;
+    margin-top: -10px;
+    height: 67px;
+}
+.nav ul {
+    list-style:none;
+}
+.nav .menu li:hover {
+    border-bottom: 7px solid #01a0ac;
+    background-image: url(http://myjervey.com/images/DesignElements/top-nav-arrow.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.create {
+    color: #fff;
+}
+.expandable h3 {
+    font-family: 'Avenir LT W01 65 Medium';
+    font-size: 22px;
+}
+.nav li {
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    margin:0;
+    padding:0px;
+    display:inline-block;
+    width:10%;
+
+    text-align:center;
+    border-right:none;
+    border-left:none;
+}
+.nav li:first-child {
+    border-left:0;
+}
+.nav li:last-child {
+    border-right:0;
+}
+.nav li.cuurent a,
+.nav li.cuurent:hover a,
+.nav li.active a,
+.nav li.active:hover a {
+    background:#aaaaaa;
+}
+.nav li:hover a {
+    background:#999999;
+}
+.nav li a {
+    font-size: 15px;
+    border-left: 1px solid #fff;
+    margin: 22px 20px 22px 0px;
+}
+.menu li {
+    height: 67px;
+}
+.nav a {
+    color:#ffffff;
+    display:inline-block;
+    line-height:40px;
+    width:100%;
+    text-decoration:none;
+    font-size:19px;
+}
+.nav .menu {
+    margin:0;
+    padding:0;
+}
+
+*{
+    font-family: Helvetica;
+}
+
+
+th, td{
+    border: solid black 1px;
+    padding: 5px;
+    font-size: 13px;
+}
+
+
+th{
+    text-align: center;
+}
+
+/* Search Form */
+
+.searchForm{
+    padding: 10px;
+    margin: 0 auto;
+    width: 25%;
+    margin-bottom: 20px;
+
+}
+
+input[type="text"]{
+    border-radius: 10px;
+    padding: 5px;
+    font-size: 20px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+/* Filter Form */
+.filterForm {
+    max-width: 20%;
+    margin-bottom: 25px;
+    padding: 10px;
+    display: inline-block;
+    float: left;
+}
+
+/*  requestContainer */
+.requestsContainer {
+    width: 20%;
+    margin-right: 0px;
+    float: right;
+    display: inline-block;
+}
+
+.requestsContainer a {
+    display: inline-block;
+    font-size: 20px;
+    background: #17727a;
+    width: 75px;
+    padding: 10px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}
+
+.messageToUser{
+    font-size: 16px;
+    color: #ff0000;
+    font-style: italic;
+    text-align: center;
+}
+
+/*TABLE */
+
+/* Container*/
+div#tableContainer {
+    padding: 5px;
+}
+
+/* Columns */
+
+
+.id-col{
+    /*width: 4%;*/
+    max-width: 41px;
+}
+
+.med-small-col{
+    /*width: 9%;*/
+    max-width: 116px;
+}
+
+.med-col{
+   /*width: 16.4%;*/
+    max-width: 130px;
+}
+
+.med-large-col{
+    /*width: 28%;*/
+    max-width: 338px;
+}
+
+.large-col{
+    /*width: 40%;*/
+    max-width: 558px;
+}
+
+table.content-table {
+
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+/* Rows */
+
+tr:nth-child(even) {background: #CCC}
+tr:nth-child(odd) {background: #FFF}
+
+/* Banners*/
+.banner {
+    text-align: center;
+}
+
+th.selected {
+    text-decoration: underline;
+}
+
+.uncheckedClass {
+    color: black;
+}
+ 
+.checkedClass {
+    color: red;
+}

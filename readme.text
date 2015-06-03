@@ -1,0 +1,38 @@
+
+
+Jervey Eye Group Application
+app.myjervery.com
+Owner: Jervey Eye Group.
+Author: Davey McNight (3FoldCreative)
+
+
+The GIST of the application.
+
+This is a Database table driven application. The application uses a OOP
+MVC format (nothing proprietary) file structure. The data is handled in a
+RESTful Format. It is more like M "VC". Since the application is data driven
+and both the views and the controllers are rendered in the browser.
+
+
+Technologies that were discussed and if time allows to create a new version.
+1) Ruby on Rails
+2) Cake PHP --> Authors Choice
+3) Cake PHP is used. Active Record.
+
+TECHNOLOGIES USED:
+
+1)PHP
+2)mySQL
+3)PDO --> Native PHP way to talk to database. (Supports up to 12 different DB such has (PG, MS Server, mySQL, SQLite...)
+4)Fluent PDO --> open source extension of PDO that allows for an effective way to create Querys. Chains functions together.
+5)Angular JS. This is great technology that controls the view and the controller of the Application.
+
+Why RESTful?
+1) Speed.
+2) Expose data (nothing sensitive) to other applications. Such as a future iPAD application.
+
+Storage/Version Control.
+Private Bitbucket. The Config file info is on Git ignore for security reasons.
+Contact at Jervey:
+Joe Case.
+
